@@ -20,12 +20,24 @@ public class SpecialistDoctor extends Doctor implements SpecialistDuties {
         this.weeklyWorkHours = weeklyWorkHours;
     }
 
+    public int getWeeklyWorkHours() {
+        return weeklyWorkHours;
+    }
+
     public void setVacationDaysPerYear(int vacationDaysPerYear) {
         this.vacationDaysPerYear = vacationDaysPerYear;
     }
 
+    public int getVacationDaysPerYear() {
+        return vacationDaysPerYear;
+    }
+
     public void setSpecialty(String specialty) {
         this.specialty = specialty;
+    }
+
+    public String getSpecialty() {
+        return specialty;
     }
 
     @Override

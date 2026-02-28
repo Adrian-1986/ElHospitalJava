@@ -20,12 +20,24 @@ public class StudentDoctor extends Doctor implements StudentDuties {
         this.weeklyWorkHours = weeklyWorkHours;
     }
 
+    public int getWeeklyWorkHours() {
+        return weeklyWorkHours;
+    }
+
     public void setWeeklyStudyHours(int weeklyStudyHours) {
         this.weeklyStudyHours = weeklyStudyHours;
     }
 
+    public int getWeeklyStudyHours() {
+        return weeklyStudyHours;
+    }
+
     public void setCurrentCourse(String currentCourse) {
         this.currentCourse = currentCourse;
+    }
+
+    public String getCurrentCourse() {
+        return currentCourse;
     }
 
     @Override
