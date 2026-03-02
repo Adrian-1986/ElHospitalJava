@@ -4,8 +4,8 @@ public abstract class Patient extends Character {
     private String condition;
     private String roomNumber;
 
-    protected Patient(String id, String fullName, int age, String condition, String roomNumber) {
-        super(id, fullName, age);
+    protected Patient(String fullName, int age, String condition, String roomNumber) {
+        super(fullName, age);
         this.condition = condition;
         this.roomNumber = roomNumber;
     }

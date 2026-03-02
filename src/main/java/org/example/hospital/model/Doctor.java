@@ -3,8 +3,8 @@ package org.example.hospital.model;
 public abstract class Doctor extends Character {
     private String licenseId;
 
-    protected Doctor(String id, String fullName, int age, String licenseId) {
-        super(id, fullName, age);
+    protected Doctor(String fullName, int age, String licenseId) {
+        super(fullName, age);
         this.licenseId = licenseId;
     }
 

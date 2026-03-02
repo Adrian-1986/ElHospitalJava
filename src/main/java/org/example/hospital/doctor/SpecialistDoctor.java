@@ -8,9 +8,9 @@ public class SpecialistDoctor extends Doctor implements SpecialistDuties {
     private int vacationDaysPerYear;
     private String specialty;
 
-    public SpecialistDoctor(String id, String fullName, int age, String licenseId,
+    public SpecialistDoctor(String fullName, int age, String licenseId,
                             int weeklyWorkHours, int vacationDaysPerYear, String specialty) {
-        super(id, fullName, age, licenseId);
+        super(fullName, age, licenseId);
         this.weeklyWorkHours = weeklyWorkHours;
         this.vacationDaysPerYear = vacationDaysPerYear;
         this.specialty = specialty;
@@ -63,8 +63,7 @@ public class SpecialistDoctor extends Doctor implements SpecialistDuties {
     @Override
     public String toString() {
         return "SpecialistDoctor{" +
-                "id='" + getId() + '\'' +
-                ", fullName='" + getFullName() + '\'' +
+                "fullName='" + getFullName() + '\'' +
                 ", age=" + getAge() +
                 ", licenseId='" + getLicenseId() + '\'' +
                 ", weeklyWorkHours=" + weeklyWorkHours +

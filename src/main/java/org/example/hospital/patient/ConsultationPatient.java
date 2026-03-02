@@ -4,8 +4,8 @@ import org.example.hospital.interfaces.ConsultationFlow;
 import org.example.hospital.model.Patient;
 
 public class ConsultationPatient extends Patient implements ConsultationFlow {
-    public ConsultationPatient(String id, String fullName, int age, String condition, String roomNumber) {
-        super(id, fullName, age, condition, roomNumber);
+    public ConsultationPatient(String fullName, int age, String condition, String roomNumber) {
+        super(fullName, age, condition, roomNumber);
     }
 
     @Override
@@ -41,8 +41,7 @@ public class ConsultationPatient extends Patient implements ConsultationFlow {
     @Override
     public String toString() {
         return "ConsultationPatient{" +
-                "id='" + getId() + '\'' +
-                ", fullName='" + getFullName() + '\'' +
+                "fullName='" + getFullName() + '\'' +
                 ", age=" + getAge() +
                 ", condition='" + getCondition() + '\'' +
                 ", roomNumber='" + getRoomNumber() + '\'' +

@@ -6,8 +6,8 @@ import org.example.hospital.model.Patient;
 public class AmbulancePatient extends Patient implements AmbulanceFlow {
     private String injuryType;
 
-    public AmbulancePatient(String id, String fullName, int age, String condition, String roomNumber, String injuryType) {
-        super(id, fullName, age, condition, roomNumber);
+    public AmbulancePatient(String fullName, int age, String condition, String roomNumber, String injuryType) {
+        super(fullName, age, condition, roomNumber);
         this.injuryType = injuryType;
     }
 
@@ -52,8 +52,7 @@ public class AmbulancePatient extends Patient implements AmbulanceFlow {
     @Override
     public String toString() {
         return "AmbulancePatient{" +
-                "id='" + getId() + '\'' +
-                ", fullName='" + getFullName() + '\'' +
+                "fullName='" + getFullName() + '\'' +
                 ", age=" + getAge() +
                 ", condition='" + getCondition() + '\'' +
                 ", roomNumber='" + getRoomNumber() + '\'' +

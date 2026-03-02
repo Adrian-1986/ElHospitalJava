@@ -8,9 +8,9 @@ public class StudentDoctor extends Doctor implements StudentDuties {
     private int weeklyStudyHours;
     private String currentCourse;
 
-    public StudentDoctor(String id, String fullName, int age, String licenseId,
+    public StudentDoctor(String fullName, int age, String licenseId,
                          int weeklyWorkHours, int weeklyStudyHours, String currentCourse) {
-        super(id, fullName, age, licenseId);
+        super(fullName, age, licenseId);
         this.weeklyWorkHours = weeklyWorkHours;
         this.weeklyStudyHours = weeklyStudyHours;
         this.currentCourse = currentCourse;
@@ -63,8 +63,7 @@ public class StudentDoctor extends Doctor implements StudentDuties {
     @Override
     public String toString() {
         return "StudentDoctor{" +
-                "id='" + getId() + '\'' +
-                ", fullName='" + getFullName() + '\'' +
+                "fullName='" + getFullName() + '\'' +
                 ", age=" + getAge() +
                 ", licenseId='" + getLicenseId() + '\'' +
                 ", weeklyWorkHours=" + weeklyWorkHours +

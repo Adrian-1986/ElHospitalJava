@@ -1,22 +1,12 @@
 package org.example.hospital.model;
 
 public abstract class Character {
-    private String id;
     private String fullName;
     private int age;
 
-    protected Character(String id, String fullName, int age) {
-        this.id = id;
+    protected Character(String fullName, int age) {
         this.fullName = fullName;
         this.age = age;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public String getFullName() {

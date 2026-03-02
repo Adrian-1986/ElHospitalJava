@@ -9,7 +9,7 @@
   <rect x="0" y="0" width="1320" height="1040" fill="#1b1b1f" />
 
   <!-- Class boxes -->
-  <rect x="200" y="40" width="280" height="180" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
+  <rect x="200" y="40" width="280" height="165" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
   <rect x="40" y="300" width="260" height="140" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
   <rect x="380" y="300" width="260" height="160" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
   <rect x="40" y="520" width="300" height="200" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
@@ -24,8 +24,8 @@
   <rect x="1040" y="780" width="260" height="200" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
 
   <!-- Inheritance lines -->
-  <line x1="170" y1="300" x2="340" y2="220" stroke="#f2f2f2" stroke-width="1.4" marker-end="url(#arrow)" />
-  <line x1="510" y1="300" x2="340" y2="220" stroke="#f2f2f2" stroke-width="1.4" marker-end="url(#arrow)" />
+  <line x1="170" y1="300" x2="340" y2="205" stroke="#f2f2f2" stroke-width="1.4" marker-end="url(#arrow)" />
+  <line x1="510" y1="300" x2="340" y2="205" stroke="#f2f2f2" stroke-width="1.4" marker-end="url(#arrow)" />
   <line x1="190" y1="520" x2="170" y2="440" stroke="#f2f2f2" stroke-width="1.4" marker-end="url(#arrow)" />
   <line x1="190" y1="780" x2="170" y2="440" stroke="#f2f2f2" stroke-width="1.4" marker-end="url(#arrow)" />
   <line x1="530" y1="520" x2="510" y2="460" stroke="#f2f2f2" stroke-width="1.4" marker-end="url(#arrow)" />
@@ -40,11 +40,10 @@
   <!-- Text: Character -->
   <text x="210" y="60" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f2f2f2">Character (abstract)</text>
   <text x="210" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">Attributes:</text>
-  <text x="210" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">- id: String</text>
-  <text x="210" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">- fullName: String</text>
-  <text x="210" y="124" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">- age: int</text>
-  <text x="210" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">Methods:</text>
-  <text x="210" y="156" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ getters / setters</text>
+  <text x="210" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">- fullName: String</text>
+  <text x="210" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">- age: int</text>
+  <text x="210" y="124" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">Methods:</text>
+  <text x="210" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ getters / setters</text>
 
   <!-- Text: Doctor -->
   <text x="50" y="320" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f2f2f2">Doctor (abstract)</text>

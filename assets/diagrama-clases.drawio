@@ -10,8 +10,8 @@
           <mxGeometry x="0" y="0" width="1320" height="1040" as="geometry" />
         </mxCell>
 
-        <mxCell id="2" value="&lt;b&gt;Character (abstract)&lt;/b&gt;&lt;br&gt;Attributes:&lt;br&gt;- id: String&lt;br&gt;- fullName: String&lt;br&gt;- age: int&lt;br&gt;Methods:&lt;br&gt;+ getters / setters" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=6;strokeColor=#f2f2f2;fillColor=#1f1f24;fontColor=#f2f2f2;" vertex="1" parent="1">
-          <mxGeometry x="200" y="40" width="280" height="180" as="geometry" />
+        <mxCell id="2" value="&lt;b&gt;Character (abstract)&lt;/b&gt;&lt;br&gt;Attributes:&lt;br&gt;- fullName: String&lt;br&gt;- age: int&lt;br&gt;Methods:&lt;br&gt;+ getters / setters" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=6;strokeColor=#f2f2f2;fillColor=#1f1f24;fontColor=#f2f2f2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="280" height="165" as="geometry" />
         </mxCell>
 
         <mxCell id="3" value="&lt;b&gt;Doctor (abstract)&lt;/b&gt;&lt;br&gt;Attributes:&lt;br&gt;- licenseId: String&lt;br&gt;Methods:&lt;br&gt;+ getters / setters" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=6;strokeColor=#f2f2f2;fillColor=#1f1f24;fontColor=#f2f2f2;" vertex="1" parent="1">

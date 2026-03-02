@@ -14,7 +14,7 @@ Este proyecto modela un hospital en Java con una clase base `Character` y subcla
 Queria un ejemplo concreto y facil de seguir. Por eso use un dominio de hospital con atributos claros. El objetivo es ver que es comun, que es especifico de cada tipo y como el mismo metodo cambia segun la clase real.
 
 ## Estructura de clases
-- `Character` es la clase base con lo comun: `id`, `fullName`, `age`.
+- `Character` es la clase base con lo comun: `fullName`, `age`.
 - `Patient` y `Doctor` heredan de `Character`.
 - `Patient` agrega `condition` y `roomNumber`.
 - `Doctor` agrega `licenseId`.
@@ -51,7 +51,7 @@ Fuente editable: `assets/diagrama-clases.drawio`
 ## Ejemplo de salida
 ```text
 Patients:
-ConsultationPatient{id='P-001', fullName='Laura Perez', age=28, condition='Allergy', roomNumber='C-101'}
+ConsultationPatient{fullName='Laura Perez', age=28, condition='Allergy', roomNumber='C-101'}
 ...
 ```
 
@@ -78,7 +78,7 @@ This project models a hospital in Java with a `Character` base class and `Patien
 I wanted a concrete, easy to follow example. The hospital domain keeps the data obvious. The goal is to see what is shared, what is specific, and how the same method behaves differently depending on the runtime type.
 
 ## Class structure
-- `Character` is the base class with shared fields: `id`, `fullName`, `age`.
+- `Character` is the base class with shared fields: `fullName`, `age`.
 - `Patient` and `Doctor` extend `Character`.
 - `Patient` adds `condition` and `roomNumber`.
 - `Doctor` adds `licenseId`.
@@ -115,7 +115,7 @@ Editable source: `assets/diagrama-clases.drawio`
 ## Sample output
 ```text
 Patients:
-ConsultationPatient{id='P-001', fullName='Laura Perez', age=28, condition='Allergy', roomNumber='C-101'}
+ConsultationPatient{fullName='Laura Perez', age=28, condition='Allergy', roomNumber='C-101'}
 ...
 ```
 
