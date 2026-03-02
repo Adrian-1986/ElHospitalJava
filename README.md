@@ -48,7 +48,7 @@ No hay patrones de diseno complejos, pero si hay POO clasica:
 1. Identificar la superclase `Character` con atributos comunes y getters/setters.
 2. Separar las clases abstractas `Doctor` y `Patient` con sus propios atributos.
 3. Crear las subclases concretas (ej. `SpecialistDoctor`) y conectar herencia.
-4. Asociar las interfaces a cada clase concreta con lineas punteadas.
+4. Asociar las interfaces a cada clase concreta.
 
 ![Diagrama de clases](assets/diagrama-clases.png)
 
