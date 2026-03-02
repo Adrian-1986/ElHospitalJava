@@ -44,10 +44,6 @@ No hay patrones de diseno complejos, pero si hay POO clasica:
 - Sobrescritura de `toString()` y metodos de interfaces.
 - Abstraccion con clases base e interfaces.
 
-## Diagrama de clases (Drawio)
-![Diagrama de clases](assets/diagrama-clases.svg)
-Fuente editable: `assets/diagrama-clases.drawio`
-
 ## Ejemplo de salida
 ```text
 Patients:
@@ -107,10 +103,6 @@ No advanced design patterns here, but classic OOP patterns are present:
 - Polymorphism when printing lists of `Patient` and `Doctor`.
 - Overriding of `toString()` and interface methods.
 - Abstraction with base classes and interfaces.
-
-## Class diagram (Drawio)
-![Class diagram](assets/diagrama-clases.svg)
-Editable source: `assets/diagrama-clases.drawio`
 
 ## Sample output
 ```text
