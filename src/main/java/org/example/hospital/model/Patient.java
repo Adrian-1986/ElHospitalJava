@@ -1,6 +1,6 @@
 package org.example.hospital.model;
 
-public abstract class Patient extends Characters {
+public abstract class Patient extends Character {
     private String condition;
     private String roomNumber;
 

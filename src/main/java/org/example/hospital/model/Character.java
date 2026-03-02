@@ -1,11 +1,11 @@
 package org.example.hospital.model;
 
-public abstract class Characters {
+public abstract class Character {
     private String id;
     private String fullName;
     private int age;
 
-    protected Characters(String id, String fullName, int age) {
+    protected Character(String id, String fullName, int age) {
         this.id = id;
         this.fullName = fullName;
         this.age = age;

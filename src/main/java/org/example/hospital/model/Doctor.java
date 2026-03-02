@@ -1,6 +1,6 @@
 package org.example.hospital.model;
 
-public abstract class Doctor extends Characters {
+public abstract class Doctor extends Character {
     private String licenseId;
 
     protected Doctor(String id, String fullName, int age, String licenseId) {

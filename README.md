@@ -8,13 +8,13 @@ Elige tu idioma. Dejo dos secciones plegables: una en Espanol y otra en English.
   <summary><strong>Espanol</strong></summary>
 
 ## Resumen rapido
-Este proyecto modela un hospital en Java con una clase base `Characters` y subclases para `Patient` y `Doctor`. En `Main` se crean pacientes y doctores y se imprime su informacion usando polimorfismo. Si entiendes este codigo, entiendes la base de POO en Java.
+Este proyecto modela un hospital en Java con una clase base `Character` y subclases para `Patient` y `Doctor`. En `Main` se crean pacientes y doctores y se imprime su informacion usando polimorfismo. Si entiendes este codigo, entiendes la base de POO en Java.
 
 ## Motivacion y enfoque
 Queria un ejemplo concreto y facil de seguir. Por eso use un dominio de hospital con atributos claros. El objetivo es ver que es comun, que es especifico de cada tipo y como el mismo metodo cambia segun la clase real.
 
 ## Estructura de clases
-- `Characters` es la clase base con lo comun: `id`, `fullName`, `age`.
+- `Character` es la clase base con lo comun: `id`, `fullName`, `age`.
 - `Patient` y `Doctor` heredan de `Characters`.
 - `Patient` agrega `condition` y `roomNumber`.
 - `Doctor` agrega `licenseId`.
@@ -31,7 +31,7 @@ Queria un ejemplo concreto y facil de seguir. Por eso use un dominio de hospital
 ## Mapa del proyecto
 - Codigo principal: `src/main/java/org/example/hospital`
 - Punto de entrada: `Main`
-- Modelo base: `Characters`, `Patient`, `Doctor`
+- Modelo base: `Character`, `Patient`, `Doctor`
 - Doctores: `SpecialistDoctor`, `StudentDoctor`
 - Pacientes: `ConsultationPatient`, `AmbulancePatient`
 - Interfaces: `AmbulanceFlow`, `ConsultationFlow`, `SpecialistDuties`, `StudentDuties`
@@ -68,13 +68,13 @@ Este repo esta pensado como practica limpia. Me interesa que el codigo se entien
   <summary><strong>English</strong></summary>
 
 ## Quick summary
-This project models a hospital in Java with a `Characters` base class and `Patient` and `Doctor` subclasses. In `Main` I instantiate patients and doctors and print their details using polymorphism. If you can read this code, you understand core Java OOP.
+This project models a hospital in Java with a `Character` base class and `Patient` and `Doctor` subclasses. In `Main` I instantiate patients and doctors and print their details using polymorphism. If you can read this code, you understand core Java OOP.
 
 ## Motivation and approach
 I wanted a concrete, easy to follow example. The hospital domain keeps the data obvious. The goal is to see what is shared, what is specific, and how the same method behaves differently depending on the runtime type.
 
 ## Class structure
-- `Characters` is the base class with shared fields: `id`, `fullName`, `age`.
+- `Character` is the base class with shared fields: `id`, `fullName`, `age`.
 - `Patient` and `Doctor` extend `Characters`.
 - `Patient` adds `condition` and `roomNumber`.
 - `Doctor` adds `licenseId`.
@@ -91,7 +91,7 @@ I wanted a concrete, easy to follow example. The hospital domain keeps the data 
 ## Project map
 - Main code: `src/main/java/org/example/hospital`
 - Entry point: `Main`
-- Base model: `Characters`, `Patient`, `Doctor`
+- Base model: `Character`, `Patient`, `Doctor`
 - Doctors: `SpecialistDoctor`, `StudentDoctor`
 - Patients: `ConsultationPatient`, `AmbulancePatient`
 - Interfaces: `AmbulanceFlow`, `ConsultationFlow`, `SpecialistDuties`, `StudentDuties`
