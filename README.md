@@ -44,6 +44,14 @@ No hay patrones de diseno complejos, pero si hay POO clasica:
 - Sobrescritura de `toString()` y metodos de interfaces.
 - Abstraccion con clases base e interfaces.
 
+## Diagrama de clases (pasos)
+1. Identificar la superclase `Character` con atributos comunes y getters/setters.
+2. Separar las clases abstractas `Doctor` y `Patient` con sus propios atributos.
+3. Crear las subclases concretas (ej. `SpecialistDoctor`) y conectar herencia.
+4. Asociar las interfaces a cada clase concreta con lineas punteadas.
+
+![Diagrama de clases](assets/diagrama-clases.png)
+
 ## Ejemplo de salida
 ```text
 Patients:
@@ -103,6 +111,14 @@ No advanced design patterns here, but classic OOP patterns are present:
 - Polymorphism when printing lists of `Patient` and `Doctor`.
 - Overriding of `toString()` and interface methods.
 - Abstraction with base classes and interfaces.
+
+## Class diagram (steps)
+1. Identify the `Character` superclass with shared fields and getters/setters.
+2. Split into `Doctor` and `Patient` abstract classes with their own fields.
+3. Add concrete subclasses (e.g. `SpecialistDoctor`) and connect inheritance.
+4. Attach interfaces to each concrete class with dashed lines.
+
+![Class diagram](assets/diagrama-clases.png)
 
 ## Sample output
 ```text
