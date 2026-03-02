@@ -9,13 +9,13 @@
   <rect x="0" y="0" width="1320" height="1040" fill="#1b1b1f" />
 
   <!-- Class boxes -->
-  <rect x="200" y="40" width="280" height="220" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
-  <rect x="40" y="300" width="260" height="170" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
-  <rect x="380" y="300" width="260" height="190" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
-  <rect x="40" y="520" width="300" height="230" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
-  <rect x="40" y="780" width="300" height="230" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
-  <rect x="380" y="520" width="300" height="230" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
-  <rect x="380" y="780" width="300" height="230" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
+  <rect x="200" y="40" width="280" height="180" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
+  <rect x="40" y="300" width="260" height="140" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
+  <rect x="380" y="300" width="260" height="160" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
+  <rect x="40" y="520" width="300" height="200" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
+  <rect x="40" y="780" width="300" height="200" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
+  <rect x="380" y="520" width="300" height="200" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
+  <rect x="380" y="780" width="300" height="200" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
 
   <!-- Interface boxes -->
   <rect x="740" y="520" width="260" height="200" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
@@ -24,98 +24,74 @@
   <rect x="1040" y="780" width="260" height="200" rx="10" ry="10" fill="#1f1f24" stroke="#f2f2f2" stroke-width="1.4" />
 
   <!-- Inheritance lines -->
-  <line x1="170" y1="300" x2="340" y2="260" stroke="#f2f2f2" stroke-width="1.4" marker-end="url(#arrow)" />
-  <line x1="510" y1="300" x2="340" y2="260" stroke="#f2f2f2" stroke-width="1.4" marker-end="url(#arrow)" />
-  <line x1="190" y1="520" x2="170" y2="470" stroke="#f2f2f2" stroke-width="1.4" marker-end="url(#arrow)" />
-  <line x1="190" y1="780" x2="170" y2="470" stroke="#f2f2f2" stroke-width="1.4" marker-end="url(#arrow)" />
-  <line x1="530" y1="520" x2="510" y2="490" stroke="#f2f2f2" stroke-width="1.4" marker-end="url(#arrow)" />
-  <line x1="530" y1="780" x2="510" y2="490" stroke="#f2f2f2" stroke-width="1.4" marker-end="url(#arrow)" />
+  <line x1="170" y1="300" x2="340" y2="220" stroke="#f2f2f2" stroke-width="1.4" marker-end="url(#arrow)" />
+  <line x1="510" y1="300" x2="340" y2="220" stroke="#f2f2f2" stroke-width="1.4" marker-end="url(#arrow)" />
+  <line x1="190" y1="520" x2="170" y2="440" stroke="#f2f2f2" stroke-width="1.4" marker-end="url(#arrow)" />
+  <line x1="190" y1="780" x2="170" y2="440" stroke="#f2f2f2" stroke-width="1.4" marker-end="url(#arrow)" />
+  <line x1="530" y1="520" x2="510" y2="460" stroke="#f2f2f2" stroke-width="1.4" marker-end="url(#arrow)" />
+  <line x1="530" y1="780" x2="510" y2="460" stroke="#f2f2f2" stroke-width="1.4" marker-end="url(#arrow)" />
 
   <!-- Implements lines -->
-  <line x1="340" y1="635" x2="740" y2="620" stroke="#f2f2f2" stroke-width="1.4" stroke-dasharray="6,5" marker-end="url(#arrow)" />
-  <line x1="340" y1="895" x2="740" y2="880" stroke="#f2f2f2" stroke-width="1.4" stroke-dasharray="6,5" marker-end="url(#arrow)" />
-  <line x1="680" y1="635" x2="1040" y2="620" stroke="#f2f2f2" stroke-width="1.4" stroke-dasharray="6,5" marker-end="url(#arrow)" />
-  <line x1="680" y1="895" x2="1040" y2="880" stroke="#f2f2f2" stroke-width="1.4" stroke-dasharray="6,5" marker-end="url(#arrow)" />
+  <line x1="340" y1="620" x2="740" y2="620" stroke="#f2f2f2" stroke-width="1.4" stroke-dasharray="6,5" marker-end="url(#arrow)" />
+  <line x1="340" y1="880" x2="740" y2="880" stroke="#f2f2f2" stroke-width="1.4" stroke-dasharray="6,5" marker-end="url(#arrow)" />
+  <line x1="680" y1="620" x2="1040" y2="620" stroke="#f2f2f2" stroke-width="1.4" stroke-dasharray="6,5" marker-end="url(#arrow)" />
+  <line x1="680" y1="880" x2="1040" y2="880" stroke="#f2f2f2" stroke-width="1.4" stroke-dasharray="6,5" marker-end="url(#arrow)" />
 
-  <!-- Text style -->
-  <!-- Character -->
+  <!-- Text: Character -->
   <text x="210" y="60" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f2f2f2">Character (abstract)</text>
   <text x="210" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">Attributes:</text>
   <text x="210" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">- id: String</text>
   <text x="210" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">- fullName: String</text>
   <text x="210" y="124" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">- age: int</text>
   <text x="210" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">Methods:</text>
-  <text x="210" y="156" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ getId(): String</text>
-  <text x="210" y="172" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ setId(String)</text>
-  <text x="210" y="188" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ getFullName(): String</text>
-  <text x="210" y="204" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ setFullName(String)</text>
-  <text x="210" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ getAge(): int</text>
-  <text x="210" y="236" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ setAge(int)</text>
+  <text x="210" y="156" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ getters / setters</text>
 
-  <!-- Doctor -->
+  <!-- Text: Doctor -->
   <text x="50" y="320" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f2f2f2">Doctor (abstract)</text>
   <text x="50" y="336" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">Attributes:</text>
   <text x="50" y="352" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">- licenseId: String</text>
   <text x="50" y="368" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">Methods:</text>
-  <text x="50" y="384" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ getLicenseId(): String</text>
-  <text x="50" y="400" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ setLicenseId(String)</text>
+  <text x="50" y="384" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ getters / setters</text>
 
-  <!-- Patient -->
+  <!-- Text: Patient -->
   <text x="390" y="320" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f2f2f2">Patient (abstract)</text>
   <text x="390" y="336" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">Attributes:</text>
   <text x="390" y="352" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">- condition: String</text>
   <text x="390" y="368" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">- roomNumber: String</text>
   <text x="390" y="384" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">Methods:</text>
-  <text x="390" y="400" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ getCondition(): String</text>
-  <text x="390" y="416" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ setCondition(String)</text>
-  <text x="390" y="432" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ getRoomNumber(): String</text>
-  <text x="390" y="448" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ setRoomNumber(String)</text>
+  <text x="390" y="400" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ getters / setters</text>
 
-  <!-- SpecialistDoctor -->
+  <!-- Text: SpecialistDoctor -->
   <text x="50" y="540" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f2f2f2">SpecialistDoctor</text>
   <text x="50" y="556" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">Attributes:</text>
   <text x="50" y="572" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">- weeklyWorkHours: int</text>
   <text x="50" y="588" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">- vacationDaysPerYear: int</text>
   <text x="50" y="604" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">- specialty: String</text>
   <text x="50" y="620" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">Methods:</text>
-  <text x="50" y="636" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ weeklyWorkHours(): int</text>
-  <text x="50" y="652" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ vacationDaysPerYear(): int</text>
-  <text x="50" y="668" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ specialty(): String</text>
-  <text x="50" y="684" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ eat(): String</text>
+  <text x="50" y="636" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ interface methods</text>
 
-  <!-- StudentDoctor -->
+  <!-- Text: StudentDoctor -->
   <text x="50" y="800" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f2f2f2">StudentDoctor</text>
   <text x="50" y="816" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">Attributes:</text>
   <text x="50" y="832" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">- weeklyWorkHours: int</text>
   <text x="50" y="848" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">- weeklyStudyHours: int</text>
   <text x="50" y="864" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">- currentCourse: String</text>
   <text x="50" y="880" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">Methods:</text>
-  <text x="50" y="896" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ weeklyWorkHours(): int</text>
-  <text x="50" y="912" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ weeklyStudyHours(): int</text>
-  <text x="50" y="928" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ currentCourse(): String</text>
-  <text x="50" y="944" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ eat(): String</text>
+  <text x="50" y="896" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ interface methods</text>
 
-  <!-- AmbulancePatient -->
+  <!-- Text: AmbulancePatient -->
   <text x="390" y="540" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f2f2f2">AmbulancePatient</text>
   <text x="390" y="556" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">Attributes:</text>
   <text x="390" y="572" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">- injuryType: String</text>
   <text x="390" y="588" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">Methods:</text>
-  <text x="390" y="604" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ admission(): String</text>
-  <text x="390" y="620" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ operation(): String</text>
-  <text x="390" y="636" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ roomAssignment(): String</text>
-  <text x="390" y="652" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ treatment(): String</text>
-  <text x="390" y="668" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ rehabilitation(): String</text>
-  <text x="390" y="684" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ discharge(): String</text>
+  <text x="390" y="604" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ interface methods</text>
 
-  <!-- ConsultationPatient -->
+  <!-- Text: ConsultationPatient -->
   <text x="390" y="800" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f2f2f2">ConsultationPatient</text>
-  <text x="390" y="816" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">Methods:</text>
-  <text x="390" y="832" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ admission(): String</text>
-  <text x="390" y="848" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ nurseCheck(): String</text>
-  <text x="390" y="864" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ roomAssignment(): String</text>
-  <text x="390" y="880" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ treatment(): String</text>
-  <text x="390" y="896" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ nextAppointment(): String</text>
-  <text x="390" y="912" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ discharge(): String</text>
+  <text x="390" y="816" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">Attributes:</text>
+  <text x="390" y="832" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">- (none)</text>
+  <text x="390" y="848" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">Methods:</text>
+  <text x="390" y="864" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#f2f2f2">+ interface methods</text>
 
   <!-- Interfaces -->
   <text x="750" y="540" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f2f2f2">SpecialistDuties (interface)</text>

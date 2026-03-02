@@ -10,32 +10,32 @@
           <mxGeometry x="0" y="0" width="1320" height="1040" as="geometry" />
         </mxCell>
 
-        <mxCell id="2" value="&lt;b&gt;Character (abstract)&lt;/b&gt;&lt;br&gt;Attributes:&lt;br&gt;- id: String&lt;br&gt;- fullName: String&lt;br&gt;- age: int&lt;br&gt;Methods:&lt;br&gt;+ getId(): String&lt;br&gt;+ setId(String)&lt;br&gt;+ getFullName(): String&lt;br&gt;+ setFullName(String)&lt;br&gt;+ getAge(): int&lt;br&gt;+ setAge(int)" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=6;strokeColor=#f2f2f2;fillColor=#1f1f24;fontColor=#f2f2f2;" vertex="1" parent="1">
-          <mxGeometry x="200" y="40" width="280" height="220" as="geometry" />
+        <mxCell id="2" value="&lt;b&gt;Character (abstract)&lt;/b&gt;&lt;br&gt;Attributes:&lt;br&gt;- id: String&lt;br&gt;- fullName: String&lt;br&gt;- age: int&lt;br&gt;Methods:&lt;br&gt;+ getters / setters" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=6;strokeColor=#f2f2f2;fillColor=#1f1f24;fontColor=#f2f2f2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="280" height="180" as="geometry" />
         </mxCell>
 
-        <mxCell id="3" value="&lt;b&gt;Doctor (abstract)&lt;/b&gt;&lt;br&gt;Attributes:&lt;br&gt;- licenseId: String&lt;br&gt;Methods:&lt;br&gt;+ getLicenseId(): String&lt;br&gt;+ setLicenseId(String)" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=6;strokeColor=#f2f2f2;fillColor=#1f1f24;fontColor=#f2f2f2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="300" width="260" height="170" as="geometry" />
+        <mxCell id="3" value="&lt;b&gt;Doctor (abstract)&lt;/b&gt;&lt;br&gt;Attributes:&lt;br&gt;- licenseId: String&lt;br&gt;Methods:&lt;br&gt;+ getters / setters" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=6;strokeColor=#f2f2f2;fillColor=#1f1f24;fontColor=#f2f2f2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="260" height="140" as="geometry" />
         </mxCell>
 
-        <mxCell id="4" value="&lt;b&gt;Patient (abstract)&lt;/b&gt;&lt;br&gt;Attributes:&lt;br&gt;- condition: String&lt;br&gt;- roomNumber: String&lt;br&gt;Methods:&lt;br&gt;+ getCondition(): String&lt;br&gt;+ setCondition(String)&lt;br&gt;+ getRoomNumber(): String&lt;br&gt;+ setRoomNumber(String)" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=6;strokeColor=#f2f2f2;fillColor=#1f1f24;fontColor=#f2f2f2;" vertex="1" parent="1">
-          <mxGeometry x="380" y="300" width="260" height="190" as="geometry" />
+        <mxCell id="4" value="&lt;b&gt;Patient (abstract)&lt;/b&gt;&lt;br&gt;Attributes:&lt;br&gt;- condition: String&lt;br&gt;- roomNumber: String&lt;br&gt;Methods:&lt;br&gt;+ getters / setters" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=6;strokeColor=#f2f2f2;fillColor=#1f1f24;fontColor=#f2f2f2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="300" width="260" height="160" as="geometry" />
         </mxCell>
 
-        <mxCell id="5" value="&lt;b&gt;SpecialistDoctor&lt;/b&gt;&lt;br&gt;Attributes:&lt;br&gt;- weeklyWorkHours: int&lt;br&gt;- vacationDaysPerYear: int&lt;br&gt;- specialty: String&lt;br&gt;Methods:&lt;br&gt;+ weeklyWorkHours(): int&lt;br&gt;+ vacationDaysPerYear(): int&lt;br&gt;+ specialty(): String&lt;br&gt;+ eat(): String" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=6;strokeColor=#f2f2f2;fillColor=#1f1f24;fontColor=#f2f2f2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="520" width="300" height="230" as="geometry" />
+        <mxCell id="5" value="&lt;b&gt;SpecialistDoctor&lt;/b&gt;&lt;br&gt;Attributes:&lt;br&gt;- weeklyWorkHours: int&lt;br&gt;- vacationDaysPerYear: int&lt;br&gt;- specialty: String&lt;br&gt;Methods:&lt;br&gt;+ interface methods" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=6;strokeColor=#f2f2f2;fillColor=#1f1f24;fontColor=#f2f2f2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="300" height="200" as="geometry" />
         </mxCell>
 
-        <mxCell id="6" value="&lt;b&gt;StudentDoctor&lt;/b&gt;&lt;br&gt;Attributes:&lt;br&gt;- weeklyWorkHours: int&lt;br&gt;- weeklyStudyHours: int&lt;br&gt;- currentCourse: String&lt;br&gt;Methods:&lt;br&gt;+ weeklyWorkHours(): int&lt;br&gt;+ weeklyStudyHours(): int&lt;br&gt;+ currentCourse(): String&lt;br&gt;+ eat(): String" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=6;strokeColor=#f2f2f2;fillColor=#1f1f24;fontColor=#f2f2f2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="780" width="300" height="230" as="geometry" />
+        <mxCell id="6" value="&lt;b&gt;StudentDoctor&lt;/b&gt;&lt;br&gt;Attributes:&lt;br&gt;- weeklyWorkHours: int&lt;br&gt;- weeklyStudyHours: int&lt;br&gt;- currentCourse: String&lt;br&gt;Methods:&lt;br&gt;+ interface methods" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=6;strokeColor=#f2f2f2;fillColor=#1f1f24;fontColor=#f2f2f2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="780" width="300" height="200" as="geometry" />
         </mxCell>
 
-        <mxCell id="7" value="&lt;b&gt;AmbulancePatient&lt;/b&gt;&lt;br&gt;Attributes:&lt;br&gt;- injuryType: String&lt;br&gt;Methods:&lt;br&gt;+ admission(): String&lt;br&gt;+ operation(): String&lt;br&gt;+ roomAssignment(): String&lt;br&gt;+ treatment(): String&lt;br&gt;+ rehabilitation(): String&lt;br&gt;+ discharge(): String" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=6;strokeColor=#f2f2f2;fillColor=#1f1f24;fontColor=#f2f2f2;" vertex="1" parent="1">
-          <mxGeometry x="380" y="520" width="300" height="230" as="geometry" />
+        <mxCell id="7" value="&lt;b&gt;AmbulancePatient&lt;/b&gt;&lt;br&gt;Attributes:&lt;br&gt;- injuryType: String&lt;br&gt;Methods:&lt;br&gt;+ interface methods" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=6;strokeColor=#f2f2f2;fillColor=#1f1f24;fontColor=#f2f2f2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="520" width="300" height="200" as="geometry" />
         </mxCell>
 
-        <mxCell id="8" value="&lt;b&gt;ConsultationPatient&lt;/b&gt;&lt;br&gt;Methods:&lt;br&gt;+ admission(): String&lt;br&gt;+ nurseCheck(): String&lt;br&gt;+ roomAssignment(): String&lt;br&gt;+ treatment(): String&lt;br&gt;+ nextAppointment(): String&lt;br&gt;+ discharge(): String" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=6;strokeColor=#f2f2f2;fillColor=#1f1f24;fontColor=#f2f2f2;" vertex="1" parent="1">
-          <mxGeometry x="380" y="780" width="300" height="230" as="geometry" />
+        <mxCell id="8" value="&lt;b&gt;ConsultationPatient&lt;/b&gt;&lt;br&gt;Attributes:&lt;br&gt;- (none)&lt;br&gt;Methods:&lt;br&gt;+ interface methods" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=6;strokeColor=#f2f2f2;fillColor=#1f1f24;fontColor=#f2f2f2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="780" width="300" height="200" as="geometry" />
         </mxCell>
 
         <mxCell id="9" value="&lt;b&gt;SpecialistDuties (interface)&lt;/b&gt;&lt;br&gt;Methods:&lt;br&gt;+ weeklyWorkHours(): int&lt;br&gt;+ eat(): String&lt;br&gt;+ vacationDaysPerYear(): int&lt;br&gt;+ specialty(): String" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=6;strokeColor=#f2f2f2;fillColor=#1f1f24;fontColor=#f2f2f2;" vertex="1" parent="1">
