@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1040" viewBox="0 0 1320 1040">
+  <defs>
+    <marker id="inherit" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ffffff" stroke="#333333" />
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1320" height="1040" fill="#ffffff" />
+
+  <!-- Class boxes -->
+  <rect x="200" y="40" width="280" height="220" fill="#ffffff" stroke="#333333" />
+  <rect x="40" y="300" width="260" height="170" fill="#ffffff" stroke="#333333" />
+  <rect x="380" y="300" width="260" height="190" fill="#ffffff" stroke="#333333" />
+  <rect x="40" y="520" width="300" height="230" fill="#ffffff" stroke="#333333" />
+  <rect x="40" y="780" width="300" height="230" fill="#ffffff" stroke="#333333" />
+  <rect x="380" y="520" width="300" height="230" fill="#ffffff" stroke="#333333" />
+  <rect x="380" y="780" width="300" height="230" fill="#ffffff" stroke="#333333" />
+
+  <!-- Interface boxes -->
+  <rect x="740" y="520" width="260" height="200" fill="#ffffff" stroke="#333333" />
+  <rect x="740" y="780" width="260" height="200" fill="#ffffff" stroke="#333333" />
+  <rect x="1040" y="520" width="260" height="200" fill="#ffffff" stroke="#333333" />
+  <rect x="1040" y="780" width="260" height="200" fill="#ffffff" stroke="#333333" />
+
+  <!-- Inheritance lines -->
+  <line x1="170" y1="300" x2="340" y2="260" stroke="#333333" stroke-width="1.2" marker-end="url(#inherit)" />
+  <line x1="510" y1="300" x2="340" y2="260" stroke="#333333" stroke-width="1.2" marker-end="url(#inherit)" />
+  <line x1="190" y1="520" x2="170" y2="470" stroke="#333333" stroke-width="1.2" marker-end="url(#inherit)" />
+  <line x1="190" y1="780" x2="170" y2="470" stroke="#333333" stroke-width="1.2" marker-end="url(#inherit)" />
+  <line x1="530" y1="520" x2="510" y2="490" stroke="#333333" stroke-width="1.2" marker-end="url(#inherit)" />
+  <line x1="530" y1="780" x2="510" y2="490" stroke="#333333" stroke-width="1.2" marker-end="url(#inherit)" />
+
+  <!-- Implements lines -->
+  <line x1="340" y1="635" x2="740" y2="620" stroke="#333333" stroke-width="1.2" stroke-dasharray="5,4" marker-end="url(#inherit)" />
+  <line x1="340" y1="895" x2="740" y2="880" stroke="#333333" stroke-width="1.2" stroke-dasharray="5,4" marker-end="url(#inherit)" />
+  <line x1="680" y1="635" x2="1040" y2="620" stroke="#333333" stroke-width="1.2" stroke-dasharray="5,4" marker-end="url(#inherit)" />
+  <line x1="680" y1="895" x2="1040" y2="880" stroke="#333333" stroke-width="1.2" stroke-dasharray="5,4" marker-end="url(#inherit)" />
+
+  <!-- Text: Character -->
+  <text x="210" y="58" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Character (abstract)</text>
+  <text x="210" y="72" font-family="Arial, sans-serif" font-size="12">Attributes:</text>
+  <text x="210" y="86" font-family="Arial, sans-serif" font-size="12">- id: String</text>
+  <text x="210" y="100" font-family="Arial, sans-serif" font-size="12">- fullName: String</text>
+  <text x="210" y="114" font-family="Arial, sans-serif" font-size="12">- age: int</text>
+  <text x="210" y="128" font-family="Arial, sans-serif" font-size="12">Methods:</text>
+  <text x="210" y="142" font-family="Arial, sans-serif" font-size="12">+ getId(): String</text>
+  <text x="210" y="156" font-family="Arial, sans-serif" font-size="12">+ setId(String)</text>
+  <text x="210" y="170" font-family="Arial, sans-serif" font-size="12">+ getFullName(): String</text>
+  <text x="210" y="184" font-family="Arial, sans-serif" font-size="12">+ setFullName(String)</text>
+  <text x="210" y="198" font-family="Arial, sans-serif" font-size="12">+ getAge(): int</text>
+  <text x="210" y="212" font-family="Arial, sans-serif" font-size="12">+ setAge(int)</text>
+
+  <!-- Text: Doctor -->
+  <text x="50" y="318" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Doctor (abstract)</text>
+  <text x="50" y="332" font-family="Arial, sans-serif" font-size="12">Attributes:</text>
+  <text x="50" y="346" font-family="Arial, sans-serif" font-size="12">- licenseId: String</text>
+  <text x="50" y="360" font-family="Arial, sans-serif" font-size="12">Methods:</text>
+  <text x="50" y="374" font-family="Arial, sans-serif" font-size="12">+ getLicenseId(): String</text>
+  <text x="50" y="388" font-family="Arial, sans-serif" font-size="12">+ setLicenseId(String)</text>
+
+  <!-- Text: Patient -->
+  <text x="390" y="318" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Patient (abstract)</text>
+  <text x="390" y="332" font-family="Arial, sans-serif" font-size="12">Attributes:</text>
+  <text x="390" y="346" font-family="Arial, sans-serif" font-size="12">- condition: String</text>
+  <text x="390" y="360" font-family="Arial, sans-serif" font-size="12">- roomNumber: String</text>
+  <text x="390" y="374" font-family="Arial, sans-serif" font-size="12">Methods:</text>
+  <text x="390" y="388" font-family="Arial, sans-serif" font-size="12">+ getCondition(): String</text>
+  <text x="390" y="402" font-family="Arial, sans-serif" font-size="12">+ setCondition(String)</text>
+  <text x="390" y="416" font-family="Arial, sans-serif" font-size="12">+ getRoomNumber(): String</text>
+  <text x="390" y="430" font-family="Arial, sans-serif" font-size="12">+ setRoomNumber(String)</text>
+
+  <!-- Text: SpecialistDoctor -->
+  <text x="50" y="538" font-family="Arial, sans-serif" font-size="12" font-weight="bold">SpecialistDoctor</text>
+  <text x="50" y="552" font-family="Arial, sans-serif" font-size="12">Attributes:</text>
+  <text x="50" y="566" font-family="Arial, sans-serif" font-size="12">- weeklyWorkHours: int</text>
+  <text x="50" y="580" font-family="Arial, sans-serif" font-size="12">- vacationDaysPerYear: int</text>
+  <text x="50" y="594" font-family="Arial, sans-serif" font-size="12">- specialty: String</text>
+  <text x="50" y="608" font-family="Arial, sans-serif" font-size="12">Methods:</text>
+  <text x="50" y="622" font-family="Arial, sans-serif" font-size="12">+ weeklyWorkHours(): int</text>
+  <text x="50" y="636" font-family="Arial, sans-serif" font-size="12">+ vacationDaysPerYear(): int</text>
+  <text x="50" y="650" font-family="Arial, sans-serif" font-size="12">+ specialty(): String</text>
+  <text x="50" y="664" font-family="Arial, sans-serif" font-size="12">+ eat(): String</text>
+
+  <!-- Text: StudentDoctor -->
+  <text x="50" y="798" font-family="Arial, sans-serif" font-size="12" font-weight="bold">StudentDoctor</text>
+  <text x="50" y="812" font-family="Arial, sans-serif" font-size="12">Attributes:</text>
+  <text x="50" y="826" font-family="Arial, sans-serif" font-size="12">- weeklyWorkHours: int</text>
+  <text x="50" y="840" font-family="Arial, sans-serif" font-size="12">- weeklyStudyHours: int</text>
+  <text x="50" y="854" font-family="Arial, sans-serif" font-size="12">- currentCourse: String</text>
+  <text x="50" y="868" font-family="Arial, sans-serif" font-size="12">Methods:</text>
+  <text x="50" y="882" font-family="Arial, sans-serif" font-size="12">+ weeklyWorkHours(): int</text>
+  <text x="50" y="896" font-family="Arial, sans-serif" font-size="12">+ weeklyStudyHours(): int</text>
+  <text x="50" y="910" font-family="Arial, sans-serif" font-size="12">+ currentCourse(): String</text>
+  <text x="50" y="924" font-family="Arial, sans-serif" font-size="12">+ eat(): String</text>
+
+  <!-- Text: AmbulancePatient -->
+  <text x="390" y="538" font-family="Arial, sans-serif" font-size="12" font-weight="bold">AmbulancePatient</text>
+  <text x="390" y="552" font-family="Arial, sans-serif" font-size="12">Attributes:</text>
+  <text x="390" y="566" font-family="Arial, sans-serif" font-size="12">- injuryType: String</text>
+  <text x="390" y="580" font-family="Arial, sans-serif" font-size="12">Methods:</text>
+  <text x="390" y="594" font-family="Arial, sans-serif" font-size="12">+ admission(): String</text>
+  <text x="390" y="608" font-family="Arial, sans-serif" font-size="12">+ operation(): String</text>
+  <text x="390" y="622" font-family="Arial, sans-serif" font-size="12">+ roomAssignment(): String</text>
+  <text x="390" y="636" font-family="Arial, sans-serif" font-size="12">+ treatment(): String</text>
+  <text x="390" y="650" font-family="Arial, sans-serif" font-size="12">+ rehabilitation(): String</text>
+  <text x="390" y="664" font-family="Arial, sans-serif" font-size="12">+ discharge(): String</text>
+
+  <!-- Text: ConsultationPatient -->
+  <text x="390" y="798" font-family="Arial, sans-serif" font-size="12" font-weight="bold">ConsultationPatient</text>
+  <text x="390" y="812" font-family="Arial, sans-serif" font-size="12">Methods:</text>
+  <text x="390" y="826" font-family="Arial, sans-serif" font-size="12">+ admission(): String</text>
+  <text x="390" y="840" font-family="Arial, sans-serif" font-size="12">+ nurseCheck(): String</text>
+  <text x="390" y="854" font-family="Arial, sans-serif" font-size="12">+ roomAssignment(): String</text>
+  <text x="390" y="868" font-family="Arial, sans-serif" font-size="12">+ treatment(): String</text>
+  <text x="390" y="882" font-family="Arial, sans-serif" font-size="12">+ nextAppointment(): String</text>
+  <text x="390" y="896" font-family="Arial, sans-serif" font-size="12">+ discharge(): String</text>
+
+  <!-- Text: SpecialistDuties -->
+  <text x="750" y="538" font-family="Arial, sans-serif" font-size="12" font-weight="bold">SpecialistDuties (interface)</text>
+  <text x="750" y="552" font-family="Arial, sans-serif" font-size="12">Methods:</text>
+  <text x="750" y="566" font-family="Arial, sans-serif" font-size="12">+ weeklyWorkHours(): int</text>
+  <text x="750" y="580" font-family="Arial, sans-serif" font-size="12">+ eat(): String</text>
+  <text x="750" y="594" font-family="Arial, sans-serif" font-size="12">+ vacationDaysPerYear(): int</text>
+  <text x="750" y="608" font-family="Arial, sans-serif" font-size="12">+ specialty(): String</text>
+
+  <!-- Text: StudentDuties -->
+  <text x="750" y="798" font-family="Arial, sans-serif" font-size="12" font-weight="bold">StudentDuties (interface)</text>
+  <text x="750" y="812" font-family="Arial, sans-serif" font-size="12">Methods:</text>
+  <text x="750" y="826" font-family="Arial, sans-serif" font-size="12">+ weeklyWorkHours(): int</text>
+  <text x="750" y="840" font-family="Arial, sans-serif" font-size="12">+ weeklyStudyHours(): int</text>
+  <text x="750" y="854" font-family="Arial, sans-serif" font-size="12">+ eat(): String</text>
+  <text x="750" y="868" font-family="Arial, sans-serif" font-size="12">+ currentCourse(): String</text>
+
+  <!-- Text: AmbulanceFlow -->
+  <text x="1050" y="538" font-family="Arial, sans-serif" font-size="12" font-weight="bold">AmbulanceFlow (interface)</text>
+  <text x="1050" y="552" font-family="Arial, sans-serif" font-size="12">Methods:</text>
+  <text x="1050" y="566" font-family="Arial, sans-serif" font-size="12">+ admission(): String</text>
+  <text x="1050" y="580" font-family="Arial, sans-serif" font-size="12">+ operation(): String</text>
+  <text x="1050" y="594" font-family="Arial, sans-serif" font-size="12">+ roomAssignment(): String</text>
+  <text x="1050" y="608" font-family="Arial, sans-serif" font-size="12">+ treatment(): String</text>
+  <text x="1050" y="622" font-family="Arial, sans-serif" font-size="12">+ rehabilitation(): String</text>
+  <text x="1050" y="636" font-family="Arial, sans-serif" font-size="12">+ discharge(): String</text>
+
+  <!-- Text: ConsultationFlow -->
+  <text x="1050" y="798" font-family="Arial, sans-serif" font-size="12" font-weight="bold">ConsultationFlow (interface)</text>
+  <text x="1050" y="812" font-family="Arial, sans-serif" font-size="12">Methods:</text>
+  <text x="1050" y="826" font-family="Arial, sans-serif" font-size="12">+ admission(): String</text>
+  <text x="1050" y="840" font-family="Arial, sans-serif" font-size="12">+ nurseCheck(): String</text>
+  <text x="1050" y="854" font-family="Arial, sans-serif" font-size="12">+ roomAssignment(): String</text>
+  <text x="1050" y="868" font-family="Arial, sans-serif" font-size="12">+ treatment(): String</text>
+  <text x="1050" y="882" font-family="Arial, sans-serif" font-size="12">+ nextAppointment(): String</text>
+  <text x="1050" y="896" font-family="Arial, sans-serif" font-size="12">+ discharge(): String</text>
+</svg>

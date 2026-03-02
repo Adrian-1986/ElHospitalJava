@@ -15,7 +15,7 @@ Queria un ejemplo concreto y facil de seguir. Por eso use un dominio de hospital
 
 ## Estructura de clases
 - `Character` es la clase base con lo comun: `id`, `fullName`, `age`.
-- `Patient` y `Doctor` heredan de `Characters`.
+- `Patient` y `Doctor` heredan de `Character`.
 - `Patient` agrega `condition` y `roomNumber`.
 - `Doctor` agrega `licenseId`.
 - `ConsultationPatient` y `AmbulancePatient` implementan flujos distintos.
@@ -43,6 +43,10 @@ No hay patrones de diseno complejos, pero si hay POO clasica:
 - Polimorfismo al imprimir listas de `Patient` y `Doctor`.
 - Sobrescritura de `toString()` y metodos de interfaces.
 - Abstraccion con clases base e interfaces.
+
+## Diagrama de clases (Drawio)
+![Diagrama de clases](assets/diagrama-clases.svg)
+Fuente editable: `assets/diagrama-clases.drawio`
 
 ## Ejemplo de salida
 ```text
@@ -75,7 +79,7 @@ I wanted a concrete, easy to follow example. The hospital domain keeps the data 
 
 ## Class structure
 - `Character` is the base class with shared fields: `id`, `fullName`, `age`.
-- `Patient` and `Doctor` extend `Characters`.
+- `Patient` and `Doctor` extend `Character`.
 - `Patient` adds `condition` and `roomNumber`.
 - `Doctor` adds `licenseId`.
 - `ConsultationPatient` and `AmbulancePatient` implement different flows.
@@ -103,6 +107,10 @@ No advanced design patterns here, but classic OOP patterns are present:
 - Polymorphism when printing lists of `Patient` and `Doctor`.
 - Overriding of `toString()` and interface methods.
 - Abstraction with base classes and interfaces.
+
+## Class diagram (Drawio)
+![Class diagram](assets/diagrama-clases.svg)
+Editable source: `assets/diagrama-clases.drawio`
 
 ## Sample output
 ```text
